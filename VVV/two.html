@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
+		<style type="text/css">
+			 html,body{
+			 	height:100%;	
+			 }
+			 img{
+			 	width:50px;
+			 }
+			body{
+			 	margin:0;
+			 	position: relative;
+			 	padding-top: 50px;
+			 	padding-bottom:50px;
+			 	box-sizing: border-box;/* 加padding 不让盒子撑开 */
+			 }
+			 section{
+			 	width:100%;
+			 	height: 100%;
+			 	overflow: auto;/*把滚动条加到section上*/
+			 }
+			 ul{			 	
+			 	list-style: none;
+			 	padding:0;
+			 	margin:0;
+			 }
+			 li{
+			 	position: relative;
+			 	box-sizing: border-box;
+			 	padding-left: 80px;
+			 	padding-right:100px;
+			 }
+			 li img{
+			 	position: absolute;
+			 	left:10px;
+			 }
+			 li span{
+			 	position: absolute;
+			 	right:10px;
+			 	top:5px;
+			 }
+			 h3{
+			 	font-size:16px;
+			 	overflow: hidden;
+			 	text-overflow:ellipsis;
+			 	white-space: nowrap;
+			 }
+			 
+			 header{
+			 	width:100%;
+			 	height: 50px;
+			 	background: green;
+			 	position:fixed;
+			 	top:0;
+			 }
+			footer{
+				width:100%;
+			 	height: 50px;
+			 	background: green;
+			 	bottom:0;
+			 	position:fixed;
+			}
+			
+			
+		</style>
+	</head>
+	<body>
+		<header>头部</header>
+		<section>
+			<ul>
+				<li><img src="img/a.png" alt="" /><h3>前段工程师前段工程师前段工程师前段工程师前段工程师</h3><p>工作地点[海口]</p><span>8-16k</span></li>
+				<li><img src="img/a.png" alt="" /><h3>前段工程师</h3><span>8-16k</span></li>
+				<li><img src="img/a.png" alt="" /><h3>前段工程师</h3><span>8-16k</span></li>
+				<li><img src="img/a.png" alt="" /><h3>前段工程师</h3><span>8-16k</span></li>
+				<li><img src="img/a.png" alt="" /><h3>前段工程师</h3><span>8-16k</span></li>
+				<li><img src="img/a.png" alt="" /><h3>前段工程师</h3><span>8-16k</span></li>
+				<li><img src="img/a.png" alt="" /><h3>前段工程师</h3><span>8-16k</span></li>
+				
+			</ul>
+			
+		</section>
+		<footer>底部</footer>
+	</body>
+</html>
