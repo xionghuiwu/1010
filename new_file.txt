@@ -1,0 +1,3 @@
+.sass,scss:
+	教程：http://www.cnblogs.com/padding1015/p/7133811.html
+	命令参数：--no-cache %FileName% %FileBaseName%.css --style compact
